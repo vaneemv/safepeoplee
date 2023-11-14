@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Registrate</title>
+    <link rel="stylesheet" href="Style.css">
+    <link rel="stylesheet" href="Styles.css">
+    <link rel="icon" type="image/x-icon" href="Imagenes/logo1.png">
+    
+</head>
+
+<body>
+    <header> 
+        <div class="caja"> 
+            <h1> <img src="Imagenes/logo2.png" alt="Logo de Safe"></h1>
+            <nav> 
+                <ul> 
+                    <li><a href="index.html" id="BotonSalir"> Salir</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="Contenedorr">
+        <form class="Formularioo">
+            <p id="Registrate"> REGISTRATE </p>
+
+            <label for="nombre"> Nombres </label>
+            <input type="text" id="nombre" placeholder="Nombres" class="CajaTexto" required> 
+
+            <label for="apellido"> Apellidos </label>
+            <input type="text" id="apellido" placeholder="Apellidos" class="CajaTexto" required> 
+
+            <label for="correoelectronico"> Correo Electronico </label>
+            <input type="email" id="correoelectronico" class="CajaTexto" required placeholder="ejemplo@ejemplo.com">
+
+            <label for="Celular"> Celular </label>
+            <input class="CajaTexto" type="number" pattern="[0-9]{9}" required placeholder="Numero de Celular">
+
+            <label for="Direccion"> Direccion </label>
+            <input type="tex" id="Direccion" class="CajaTexto">
+
+            <label form="Contraseña"> Contraseña </label>
+            <input type="password" id="Contraseña" class="CajaTexto" required>
+
+            <label form="Confirma tu Contraseña"> Cofirmar tu Contraseña </label>
+            <input type="password" id="confirma tu Contraseña" class="CajaTexto" required>
+
+            <label for="DatosExtra"> Cuentanos sobre ti</label>
+            <textarea cols="70" rows="10" id="DatosExtra" class="CajaTexto" required placeholder="Hobbie, ocupaciones,otro"> </textarea>
+        
+            <input type="submit" name="contactanos" value="Registrate" class="registrate">
+        
+        </form>
+
+    </main>    
+
+    <div class="footer">
+        <div class="items-footer">
+            <a href="https://www.facebook.com/" class="go"><img src="./Imagenes/facebook.svg" alt=""></a>
+            <a href="https://www.instagram.com/" class="go"><img src="Imagenes/instagram.svg" alt=""></a>
+            <a href="https://twitter.com/" class="go"><img src="Imagenes/twitter.svg" alt=""></a>
+        </div>
+        <div class="border">
+
+        </div>
+        <div class="footer-content">
+            <a href="PageP.html" class="title">SafePeople</a>
+            <font><Small>Derechos reservados &copy; SafePeople</Small></font>
+        </div>
+    </div>
+
+</body>
+
+
+</html>
